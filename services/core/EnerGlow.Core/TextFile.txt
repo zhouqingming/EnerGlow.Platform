@@ -1,0 +1,3 @@
+﻿ An exception was thrown while activating Volo.Abp.ObjectMapping.DefaultObjectMapper -> Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider -> λ:Volo.Abp.AutoMapper.IMapperAccessor -> λ:Volo.Abp.AutoMapper.MapperAccessor ->  λ:AutoMapper.IMapper -> λ:AutoMapper.IConfigurationProvider.
+          Autofac.Core.DependencyResolutionException: An exception was thrown while activating Volo.Abp.ObjectMapping.DefaultObjectMapper -> Volo.Abp.AutoMapper.AutoMapperAutoObjectMappingProvider -> λ:Volo.Abp.AutoMapper.IMapperAccessor -> λ:Volo.Abp.AutoMapper.MapperAccessor -> λ:AutoMapper.IMapper -> λ:AutoMapper.IConfigurationProvider.
+       ---> System.MissingMethodException: No parameterless constructor defined for type 'EnerGlow.Core.Application.Dtos.MappingProfile

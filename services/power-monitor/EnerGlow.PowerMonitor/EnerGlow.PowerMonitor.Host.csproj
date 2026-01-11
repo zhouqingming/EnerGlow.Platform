@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	  <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="8.3.4" />
+	  <PackageReference Include="Volo.Abp.Autofac" Version="8.3.4" />
+	  <PackageReference Include="Volo.Abp.FluentValidation" Version="8.3.4" />
+	  <PackageReference Include="Volo.Abp.Swashbuckle" Version="8.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EnerGlow.PowerMonitor.HttpAPI\EnerGlow.PowerMonitor.HttpAPI.csproj" />
+    <ProjectReference Include="..\EnerGlow.PowerMonitor.Infrastructure\EnerGlow.PowerMonitor.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

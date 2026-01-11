@@ -1,0 +1,6 @@
+@EnerGlow.Energy_HostAddress = http://localhost:5237
+
+GET {{EnerGlow.Energy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
